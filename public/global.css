@@ -695,3 +695,43 @@ Checkout
   text-align: center;
   text-transform: capitalize;
 }
+
+.stripe-info {
+  font-size: 80%;
+  margin-top: 0.5rem;
+  color: var(--darkGrey);
+}
+.stripe-info span {
+  color: var(--primaryColor);
+}
+#card-element {
+  border: 2px solid var(--darkGrey);
+  padding: 0.5rem;
+  font-size: 4rem;
+}
+#card-errors {
+  color: var(--mainRed);
+  text-align: center;
+  margin-top: 1rem;
+}
+.checkout-form .form-empty {
+  margin-bottom: 0;
+}
+.checkout-form button {
+  margin-top: 1rem;
+}
+/* 
+====== 
+About 
+======
+*/
+.about-section {
+  width: var(--smallWidth);
+  max-width: var(--maxWidth);
+  margin: 0 auto;
+}
+.about-section p {
+  line-height: 2rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
